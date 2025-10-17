@@ -7,9 +7,11 @@
 [![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)](https://angular.io/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-## Course Overview
+## О себе
 
-Frontend development course covering HTML, CSS, JavaScript, TypeScript, and Angular.
+Я Лапенко Виталий студент второго курса Тульчкого государственного университета, обучаюсь по направлению "Информационная безопасность". О Git знал давно, но это первый раз, когда я им пользуюсь. Больше не знаю, что о себе написать.
+
+От курсов я жду получения знаний и практического опыта. Надеюсь устроиться к вам на работу и использовать полученные знания.
 
 ## Course Structure
 
