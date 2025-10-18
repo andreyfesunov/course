@@ -9,7 +9,8 @@
 
 ## Course Overview
 
-Frontend development course covering HTML, CSS, JavaScript, TypeScript, and Angular.
+Я - Астахова Алина, надеюсь выучиться и стать фротендером, а может и не только!
+Впереди ждёт изучение HTML, CSS, JavaScript, TypeScript, и Angular.
 
 ## Course Structure
 
