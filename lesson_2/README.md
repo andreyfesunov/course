@@ -1,9 +1,27 @@
-# HTML Lesson
+# Frontend Portfolio
 
-**Developed on:** 12 July 2025  
-**Lesson conducted on:** 21 October 2025
+Курс по основам фронтенд-разработки (HTML, CSS, JavaScript, Angular). Страница-портфолио для закрепления навыков семантической верстки и доступности.
 
-This repository contains materials for a HTML lesson including homework and presentation.
+## О проекте
+
+В проекте реализована персональная страница портфолио с использованием семантических HTML5-элементов.
+
+## Стек технологий
+
+- HTML5
+- Git, GitHub
+
+## Как запустить
+
+1. Клонируйте репозиторий:
+
+2. Откройте файл `index.html` в браузере.
+
+## Контакты
+
+- Telegram: [https://t.me/antoncher17](https://t.me/antoncher17)
+- GitHub: [https://github.com/Cher17Anthon](https://github.com/Cher17Anthon)
+
 
 ## Files
 
