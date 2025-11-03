@@ -29,9 +29,14 @@ Frontend development course covering HTML, CSS, JavaScript, TypeScript, and Angu
 ### [Module 1: Git](./lesson_1)
 
 ### [Module 2: HTML](./lesson_2)
+
 - [ ] Task: Create a page with information about yourself
+
+### [Module 3: CSS](./lesson_3)
+
+- [ ] Task: Create stylesheet for page with information about yourself
+- [ ] Additional task: Apply SCSS compiler
 
 ## License
 
 MIT License - see [LICENSE](./LICENSE) file.
-
