@@ -1,9 +1,32 @@
 # CSS Lesson
 
-**Developed on:** 12 July 2025  
-**Lesson conducted on:** 28 October 2025
+# Portfolio — Черепков Антон
 
-This repository contains materials for a CSS lesson including homework, figma file and presentation.
+Учебный проект портфолио фронтенд-разработчика.  
+Сайт выполнен по принципу **mobile-first**, с адаптивной сеткой и базовой компонентной структурой интерфейса.
+
+---
+
+## 🚀 Технологии
+
+- HTML5 (семантическая разметка)
+- CSS3 (flexbox, grid, адаптивные медиазапросы)
+- Git & GitHub
+
+---
+
+## 📱 Адаптивность
+
+Верстка выполнена с приоритетом **мобильных устройств**.  
+Используются подходы:
+- Mobile First
+- Гибкие сетки (`flex`, `grid`)
+- Минимальное количество фиксированных размеров
+
+---
+
+
+
 
 ## Files
 
