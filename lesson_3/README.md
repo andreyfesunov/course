@@ -12,6 +12,7 @@
 - HTML5 (семантическая разметка)
 - SCSS (flexbox, grid, адаптивные медиазапросы)
 - Git & GitHub
+- Vite
 
 ---
 
