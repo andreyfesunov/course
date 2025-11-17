@@ -37,6 +37,12 @@ Frontend development course covering HTML, CSS, JavaScript, TypeScript, and Angu
 - [ ] Task: Create stylesheet for page with information about yourself
 - [ ] Additional task: Apply SCSS compiler
 
+### [Module 4: SCSS + Vite](./lesson_4)
+
+- [ ] Task: Create Vite project, add SCSS styles
+
+### [Module 5: Theming](./lesson_5)
+
 ## License
 
 MIT License - see [LICENSE](./LICENSE) file.
