@@ -43,6 +43,10 @@ Frontend development course covering HTML, CSS, JavaScript, TypeScript, and Angu
 
 ### [Module 5: Theming](./lesson_5)
 
+### [Module 6: JS](./lesson_6)
+
+- [ ] Task: Add interactive actions on page
+
 ## License
 
 MIT License - see [LICENSE](./LICENSE) file.
