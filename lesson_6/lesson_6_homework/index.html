@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 6</title>
+  </head>
+  <body class="page">
+    
+    <header class="header">
+      <div class="container">
+        <div class="nav__list">
+          <a class="nav__link" href="#about">О себе</a>
+          <a class="nav__link" href="#work">Работы</a>
+          <a class="nav__link" href="#blog">Блог</a>
+          <a class="nav__link" href="#contacts">Контакты</a>
+        </div>
+        <button class="burger" id="burgerBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <button id="themeToggle">🌓</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="welcome_section">
+        <div class="container">
+          <div class="welcome_section_contents">
+            <div class="image_welcome"></div>
+            <h2 class="welcome_section_name">Черепков Антон</h2>
+            <p class="welcome_section_title">Я Frontend Developer</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about_section">
+        <div class="container">
+          <div class="about__inner">   
+            <div class="about__photo"></div>
+            <div class="about__content">
+              <h3 class="about__title">О себе <span></span></h3>
+              <h2 class="about__name">Черепков Антон</h2>
+              <p class="about__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim quisque leo dictum quis turpis.
+                Felis eget porta sem leo ornare nunc lacus.
+              </p>
+              <h3 class="about__title">Навыки <span></span></h3>
+              <ul class="skills">
+                <li>Figma</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Vue</li>
+                <li>React JS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section id="work" class="work">
+        <div class="container">
+          <h2 class="name__title-block">Работы</h2>
+
+          <div class="work__grid">
+            <div class="work__item"></div>
+            <div class="work__item"></div>
+            <div class="work__item"></div>
+            <div class="work__item"></div>
+            <div class="work__item"></div>
+            <div class="work__item"></div>
+            <div class="work__item"></div>
+            <div class="work__item work__item--add">+</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="blog">
+        <div class="container">
+          <h2 class="name__title-block">Блог</h2>
+          <div class="blog__list">
+            <div class="blog__item">
+              <h3 class="blog__item-title">Lorem Ipsum</h3>
+              <p class="blog__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus pellentesque lectus leo arcu.
+              </p>
+              <a class="blog__item-link" href="#">Подробнее</a>
+            </div>
+            <div class="blog__item">
+              <h3 class="blog__item-title">Lorem Ipsum</h3>
+              <p class="blog__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus pellentesque lectus leo arcu.
+              </p>
+              <a class="blog__item-link" href="#">Подробнее</a>
+            </div>
+            <div class="blog__item">
+              <h3 class="blog__item-title">Lorem Ipsum</h3>
+              <p class="blog__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus pellentesque lectus leo arcu.
+              </p>
+              <a class="blog__item-link" href="#">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="contact">
+        <div class="container">
+          <h2 class="name__title-block">Контакты</h2>
+          <div class="contact__inner">
+            <div class="contact__info">
+              <h3 class="contact__heading">Let’s Talk</h3>
+              <p class="contact__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque consequat eget nulla morbi magna enim.
+                Ultricies massa arcu ultricies quis.
+              </p>
+            </div>
+            <form class="contact__form">
+              <label class="contact__label">Имя
+                <input class="contact__input" type="text" placeholder="Напишите своё имя">
+              </label>
+              <label class="contact__label">Email
+                <input class="contact__input" type="email" placeholder="Напишите адрес электронной почты здесь">
+              </label>
+              <label class="contact__label">Сообщение
+                <textarea class="contact__textarea" placeholder="Напишите свое сообщение"></textarea>
+              </label>
+              <button class="contact__button" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_content">
+          <div class="nav__list nav__list_footer">
+            <a class="nav__link black_style" href="#about">О себе</a>
+            <a class="nav__link black_style" href="#work">Работы</a>
+            <a class="nav__link black_style" href="#blog">Блог</a>
+            <a class="nav__link black_style" href="#contacts">Контакты</a>
+          </div>
+          <h2 class="welcome_section_name black_style">Черепков Антон</h2>
+          <div class="timer">
+            <p>Сейчас: <span id="timeNow"></span></p>
+            <p>До Нового года осталось: <span id="countdown"></span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
