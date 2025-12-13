@@ -38,6 +38,13 @@ Frontend development course covering HTML, CSS, JavaScript, TypeScript, and Angu
 
 - [ ] Task: Add interactive actions on page
 
+### [Module 7: TS](./lesson_7)
+
+- [ ] Task: Refactor current project (JS -> TS)
+- [ ] Task: Add interfaces for API services, add mocks
+- [ ] Task: Implement color theme manager for website
+- [ ] Additional task: Refactor repository and project structure
+
 ## License
 
 MIT License - see [LICENSE](./LICENSE) file.
