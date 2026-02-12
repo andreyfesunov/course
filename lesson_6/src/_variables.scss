@@ -1,0 +1,28 @@
+:root {
+  --text-primary: #252525;
+  --text-secondary: #000000;
+  --text-basic: #ffffff;
+
+  --bg-primary: #ffffff;
+  --bg-secondary: #bde0ff;
+
+  --font-family: 'Poppins', sans-serif;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 16px;
+  --font-size-md: 24px;
+  --font-size-lg: 36px;
+
+  --font-weight-rg: 400;
+  --font-weight-md: 500;
+  --font-weight-lg: 700;
+}
+
+.dark {
+  --text-primary: #FFB800;
+  --text-secondary: #FFFFFF;
+  --text-basic: #000000;
+
+  --bg-primary: #252525;
+  --bg-secondary: #020202;
+}

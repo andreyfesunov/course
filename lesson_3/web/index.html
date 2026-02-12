@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Анкета</title>
+</head>
+
+<body>
+    <header>
+        <nav class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#portfolio">HOME</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#about">ABOUT</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#my-works">WORK</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#my-blogs">BLOG</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#my-contacts">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="web-portfolio" id="portfolio">
+            <div class="web-portfolio__image-container">
+                <img class="web-portfolio__logo" src="img/profile.jpg" alt="">
+            </div>
+            <div class="web-portfolio__info">
+                <p class="web-portfolio__name">Egor Rakovskiy</p>
+                <p class="web-portfolio__profession">I am a Web Designer</p>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about__container">
+                <div class="about__image">
+                    <img class="about__img" src="img/about.jpg" alt="">
+                </div>
+                <div class="about__info">
+                    <div class="about__item">
+                        <div class="about__title">
+                            <p>ABOUT</p>
+                            <img src="logo/about.svg" alt="">
+                        </div>
+                        <div class="about__content">
+                            <p class="about__name">Egor Rakovskiy</p>
+                            <p class="about__text">
+                                Привет! Я студент курса frontend разработки!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__item">
+                        <div class="about__title">
+                            <p>SKILLS</p>
+                            <img src="logo/about.svg" alt="">
+                        </div>
+                        <div class="about__content">
+                            <ul class="about__list">
+                                <li class="about__list-item">HTML</li>
+                                <li class="about__list-item">CSS</li>
+                                <li class="about__list-item">JavaScript</li>
+                                <li class="about__list-item">C#</li>
+                                <li class="about__list-item">Git</li>
+                                <li class="about__list-item">Figma</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work" id="my-works">
+            <h2 class="work__title">WORK</h2>
+            <div class="work__content">
+                <div class="work__item"></div>
+                <div class="work__item"></div>
+                <div class="work__item"></div>
+                <div class="work__item"></div>
+                <div class="work__item"></div>
+                <div class="work__item"></div>
+                <div class="work__item"></div>
+                <div class="work__item"></div>
+            </div>
+        </section>
+        <section class="blog" id="my-blogs">
+            <h2 class="blog__title">BLOG</h2>
+            <div class="blog__content">
+                <div class="blog__item">
+                    <h3 class="blog__item-title">Lorem Ipsum</h3>
+                    <p class="blog__item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus pellentesque lectus leo arcu. Auctor nulla non est amet, urna a et vestibulum.
+                    </p>
+                </div>
+                <div class="blog__item">
+                    <h3 class="blog__item-title">Lorem Ipsum</h3>
+                    <p class="blog__item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus pellentesque lectus leo arcu. Auctor nulla non est amet, urna a et vestibulum.
+                    </p>
+                </div>
+                <div class="blog__item">
+                    <h3 class="blog__item-title">Lorem Ipsum</h3>
+                    <p class="blog__item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus pellentesque lectus leo arcu. Auctor nulla non est amet, urna a et vestibulum.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="my-contacts">
+            <h2 class="blog__title">CONTACT</h2>
+            <div class="contact__container">
+                <div class="contact__description">
+                    <div class="contact__title">
+                        <p>Let’s Talk</p>
+                    </div>
+                    <div class="contact__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat eget nulla morbi magna enim. Ultricies massa arcu ultricies quis.
+                    </div>
+                </div>
+                <form class="contact__form" id="contact" action="#" method="post">
+                    <label class="contact__label" for="name">Name:</label>
+                    <input class="contact__input" type="text" id="name" name="name" placeholder="Write your name here" autocomplete="additional-name" required>
+
+                    <label class="contact__label" for="email">Email:</label>
+                    <input class="contact__input" type="email" id="email" name="email" autocomplete="email" placeholder="Write your email here" required>
+
+                    <label class="contact__label" for="message">Message:</label>
+                    <textarea class="contact__textarea" id="message" name="message" placeholder="Write your message here" required></textarea>
+
+                    <button class="contact__button" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="breadcrumbs footer__list">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#portfolio">HOME</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#about">ABOUT</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#my-works">WORK</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#my-blogs">BLOG</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#my-contacts">CONTACT</a></li>
+            </ul>
+        </nav>
+        <p class="footer__name">Egor Rakovskiy</p>
+        <p class="footer__copyright">made by very clever student 2025</p>
+    </footer>
+</body>
+
+</html>
